@@ -1,3 +1,4 @@
+"""
 from turtle import filling
 import surf
 import numpy as np
@@ -158,7 +159,7 @@ if download == 1:
 
 else:
   df_surf = pd.read_pickle("df_surf.pkl")
-
+"""
 
 # Flask
 #------
@@ -167,6 +168,7 @@ import pandas as pd
 import json
 import plotly
 
+df_surf = pd.read_pickle("df_surf.pkl")
 
 def create_fig(df_surf, ind1, ind2, all=0):
 
