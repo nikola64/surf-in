@@ -1,0 +1,35 @@
+/* h1 */
+h1 {
+    color:white;
+    font-size: 20px;
+    font-family: verdana; 
+    text-align: left;
+}
+
+/* h2 */
+h2 {
+    color:#8d8d8d;
+    font-size: 18px;
+    font-family: verdana; 
+    text-align: left;
+}
+
+/* h3 */
+h3 {
+    color:#5b8fb4;
+    font-size: 15px;
+    font-family: verdana; 
+    text-align: left;
+}
+
+/* Navigation Bar */
+.navbar-custom {
+    background-color: #1B2737;
+}
+.navbar-custom .navbar-brand {
+    background-color: #1B2737;
+    color: #1D8DEE;
+    font-size: 20px;
+    font-family: verdana;
+    font-weight: bold;
+}
