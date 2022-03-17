@@ -148,7 +148,7 @@ def create_fig(df_surf, ind1, ind2, all=0):
 
   # set grid parameters
   fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor='#1B2737')
-  fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='#1B2737')
+  fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='#1B2737', fixedrange=True)
 
   # set y-axes titles
   fig.update_yaxes(title_text="Vagues", secondary_y=False, row=1, col=1)
