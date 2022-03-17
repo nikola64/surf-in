@@ -137,7 +137,7 @@ if download == 1:
   # colors
   c_red="#fb4b45"
   c_yellow="#e3ee52"
-  c_green="#c1ea56"
+  c_green="#00FF00"
   # based on directions
   df_surf["grade_marker_color"].replace("N", c_red, inplace=True)
   df_surf["grade_marker_color"].replace("NE", c_green, inplace=True) 
@@ -245,7 +245,7 @@ def create_fig(df_surf, ind1, ind2, all=0):
         y=df_surf["wind_spd"][ind1:ind2][wind_mask],
         marker_color=df_surf["grade_marker_color"][ind1:ind2][wind_mask],
         #line=dict(width=2, color='#657786'),
-        text=df_surf["wind_dir_ar"][ind1:ind2][wind_mask],
+        text=df_surf["wind_dir_txt"][ind1:ind2][wind_mask],
         textposition='auto',
         hovertemplate ='Dir: %{text}, Mean: %{y:.1f}m/s,' + \
           ' Max: %{customdata:.1f}m/s',
