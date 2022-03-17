@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Style-->
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+
+<head>
+
+<!-- Navigation Bar-->
+<nav class="navbar navbar-expand-md navbar-light navbar-custom">
+    <a class="navbar-brand" href="index">Surf'In</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="all" style="color: #5b8fb4; font-size: 15px; font-family: verdana; text-align: middle;">All</a>
+        </li>
+        </ul>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="day1_am" style="color: #5b8fb4; font-size: 15px; font-family: verdana; text-align: middle;">Aujourd'hui</a>
+        </li>
+        </ul>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="day2_am" style="color: #5b8fb4; font-size: 15px; font-family: verdana; text-align: middle;">Demain</a>
+        </li>
+        </ul>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="about" style="color: #5b8fb4; font-size: 15px; font-family: verdana; text-align: middle;">About</a>
+        </li>
+        </ul>
+    </div>
+</nav>
+<!-- -->
+
+<body style="background-color:#151E29">
+
+<body>
+    <br>
+    <h1 style="margin-left: 20px;">Clic sur une prévision</h1>
+    <br>
+    <a href="all"><h2 style="margin-left: 20px;">Prévisions à 16 jours<h2></a>
+    <br>
+    <a href="day1_am" ><h2 style="margin-left: 20px;">Aujourd'hui, matin</h2></a>
+    <a href="day1_pm"><h2 style="margin-left: 20px;">Aujourd'hui, aprem</h2></a>
+    <a href="day2_am"><h2 style="margin-left: 20px;">Demain, matin</h2></a>
+    <a href="day2_pm"><h2 style="margin-left: 20px;">Demain, aprem</h2></a>
+</body>
